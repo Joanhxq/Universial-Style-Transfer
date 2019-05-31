@@ -64,7 +64,7 @@ python main.py --stylePair ./inputs/styles/tiger.jpg,./inputs/styles/in1.jpg --s
 ## Result:
 
 <figure class="half">
-​    <img src="outputs\total_in1_stylized_by_tiger_alpha_0.2.png" width="220px" height="220px"><img src="outputs\multiLevel_mask_face_stylized_by_cubism_and_draft_alpha_0.2.png" width="220px" height="220px"><img src="outputs\multiLevel_texture_iter3_stylized_by_tiger_and_in1_alpha_1.png" width="220px" height="220px">
+​    <img src="outputs\total_in1_stylized_by_tiger_alpha_0.2.png" width="250px" height="250px"><img src="outputs\multiLevel_mask_face_stylized_by_cubism_and_draft_alpha_0.2.png" width="250px" height="250px"><img src="outputs\multiLevel_texture_iter3_stylized_by_tiger_and_in1_alpha_1.png" width="250px" height="250px">
 
 </figure>
 
