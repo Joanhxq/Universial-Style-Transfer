@@ -37,7 +37,7 @@ Supported image file formats are: __jpg__, __jpeg__, __png__.
 
 ### Examples:
 
-<u>STYLE TRANSFER:</u>
+- <u>STYLE TRANSFER:</u>
 
 ```
 python main.py --content ./inputs/contents/in1.jpg --style ./inputs/styles/tiger.jpg --contentSize 512 --styleSize 512
@@ -49,13 +49,13 @@ python main.py --content ./inputs/contents/in1.jpg --style ./inputs/styles --con
 python main.py --content ./inputs/contents --style ./inputs/styles --contentSize 512 --styleSize 512 --outPrefix total
 ```
 
-<u>MASK:</u>
+- <u>MASK:</u>
 
 ```
 python main.py --content ./inputs/contents/face.jpg --stylePair ./inputs/styles/cubism.jpg,./inputs/styles/draft.jpg --mask ./inputs/masks/glasses_mask.jpg --contentSize 512 --styleSize 512 --outPrefix mask
 ```
 
-<u>SYNTHESIS:</u>
+- <u>SYNTHESIS:</u>
 
 ```
 python main.py --stylePair ./inputs/styles/tiger.jpg,./inputs/styles/in1.jpg --synthesis True --contentSize 512 --styleSize 512
